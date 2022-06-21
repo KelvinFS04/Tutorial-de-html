@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabelas</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       
+        <a href="index.html">Voltar ao início</a>
+        
+        <h1>Tabelas</h1>
+        
+        <p>
+            Tabelas, assim como listas, tem uma função interessante de se saber: agrupar dados, mas em colunas e linhas. Além disso, 
+            é possível definir o tamanho da tabela em pixels, assim como nas imagens, e em porcentagem de tela:
+        </p>
+        
+        <table border="5" height ="200" width ="30%"  >
+            <tr>
+                <th>1° coluna</th>
+                <th>2° coluna</th>
+            </tr>
+            <Tr>
+                <td>coluna 1, linha 1</td>
+                <td>coluna 2, linha 1</td>
+            </Tr>
+            <Tr>
+                <td>coluna 1, linha 2</td>
+                <td>coluna 2, linha 2</td>
+            </Tr>
+            <Tr>
+                <td>coluna 1, linha 3</td>
+                <td>coluna 2, linha 3</td>
+            </Tr>
+        </table>
+        
+        <p>A programção deste código fica assim:</p>
+
+        <img src="Imagens/img_tabelas.png">
+        
+        <p>Também é possível definir o tamanho que uma célula da tabela ocupará com colspan e rowspan:</p>
+
+        <table border="5">
+            <tr>
+                <td colspan="2" rowspan="2"> Dado 2x2</td>
+                <td>Dado normal</td>
+            </tr>
+            <tr>
+                <td>Dado normal</td>
+            </tr>
+            <tr>
+                <td>Dado normal</td>
+                <td>Dado normal</td>
+                <td>Dado normal</td>
+            </tr>
+        </table>
+       
+        <p>OBS: O dado 2x2 ocupou a row de baixo, fazendo ele ser o primeiro e segundo dado de ambas as linhas</p>
+
+        <p>Para programar esses recursos, basta fazer o código desse jeito:</p>
+
+        <img src="Imagens/img_colspanErowspan.png">
+
+
+    </body>
+</html>
